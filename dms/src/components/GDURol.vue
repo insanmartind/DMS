@@ -23,6 +23,7 @@
 
 
 
+
                     <td>{{ props.item.nombre }}</td>
                     <td>{{ props.item.descripcion }}</td>
 

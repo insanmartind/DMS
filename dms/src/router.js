@@ -6,6 +6,7 @@ import DMSAnalista from './components/DMSAnalista.vue'
 import DMSAprobacion from './components/DMSAprobacion.vue'
 import DMSProveedor from './components/DMSProveedor.vue'
 import GDURol from './components/GDURol.vue'
+import GDUUsuario from './components/GDUUsuario.vue'
 
 Vue.use(Router)
 
@@ -41,6 +42,11 @@ export default new Router({
             path: '/GDURol',
             name: 'GDURol',
             component: GDURol
+        },
+        {
+            path: '/GDUUsuario',
+            name: 'GDUUsuario',
+            component: GDUUsuario
         }
     ]
 })
